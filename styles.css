@@ -126,15 +126,19 @@ main a:hover  .go{
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-bottom: 100px;
     transition: 0.25s ease-out;
 }
 .redirect:hover{
     background: #fa7d09;
 }
+main{
+    height: auto;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+}
 footer{
     position: absolute;
-    margin-bottom: 0;
     left: 0;
     width: 100%;
     height: 380px;
